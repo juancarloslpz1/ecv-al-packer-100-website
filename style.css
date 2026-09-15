@@ -60,3 +60,39 @@ h1, h2, h3, ul, li, p {color: white;}
     display: block;
     margin: 0 auto;
 }
+
+/* Dropdown */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background-color: #222;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    z-index: 1000;
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+    background-color: #444;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
