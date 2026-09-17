@@ -2,6 +2,18 @@ body {background-color: red;}
 
 h1, h2, h3, ul, li, p {color: white;}
 
+Main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding 0 20px;
+    text-align: center;
+}
+
+main ul {
+    width:fit-content;
+    margin: 0 auto;
+}
+
 .navbar {
     background-color: #222;
     padding: 15px 0;
@@ -157,4 +169,11 @@ h1, h2, h3, ul, li, p {color: white;}
 .section-divider span {
     white-space: nowrap;
     color: white;
+}
+
+footer { 
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;  
+    text-align: center;
 }
