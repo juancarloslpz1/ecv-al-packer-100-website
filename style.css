@@ -99,8 +99,8 @@ h1, h2, h3, ul, li, p {color: white;}
 
 .officers {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 30px;
 }
 
@@ -118,3 +118,43 @@ h1, h2, h3, ul, li, p {color: white;}
     margin-bottom: 0 auto 15px;
 }
 
+.humbugs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    }
+
+.humbug {
+    text-align: center;
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 10px;
+    }
+
+.humbug img  {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+}
+
+.section-divider {
+    display:flex;
+    align-items: center;
+    gap: 24px;
+    flex-basis: 100%;
+}
+
+.section-divider::before,
+.section-divider::after {
+    content: "";
+    flex-grow: 1;
+    border-top: 1px solid white;
+}
+
+.section-divider span {
+    white-space: nowrap;
+    color: white;
+}
