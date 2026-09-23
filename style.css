@@ -2,10 +2,10 @@ body {background-color: red;}
 
 h1, h2, h3, ul, li, p {color: white;}
 
-Main {
+main {
     max-width: 1100px;
     margin: 0 auto;
-    padding 0 20px;
+    padding: 0 20px;
     text-align: center;
 }
 
@@ -17,6 +17,29 @@ main ul {
 .navbar {
     background-color: #222;
     padding: 15px 0;
+}
+
+.nav-logo img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.navbar {
+    position: relative;
+}
+
+.nav-logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-logo img {
+    width: 75px;
+    height: 50px;
+    object-fit: contain;
 }
 
 .nav-container {
@@ -177,3 +200,34 @@ footer {
     padding: 0 20px;  
     text-align: center;
 }
+
+.plaque {
+    text-align: center;
+    margin-bottom:40px
+}
+
+.plaque img {
+    max-width: 100%;
+    height: auto;
+}
+
+.plaques {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 30px;
+    }
+
+.plaque {
+    text-align: center;
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 10px;
+    }
+
+.facebook-logo {
+    width: 40px;
+    height: 40px;
+}
+
+
